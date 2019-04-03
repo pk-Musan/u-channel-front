@@ -2,7 +2,7 @@
 
 ## 使ってるファイル
 
-```
+``` bash
 # src
 App.vue
 main.js

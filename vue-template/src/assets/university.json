@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "logical_name": "Kobe",
+        "physical_name": "神戸大学",
+        "logical_region": "Kinki",
+        "physical_region": "近畿",
+        "logical_prefecture": "Hyogo",
+        "physical_prefecture": "兵庫"
+    },
+    {
+        "id": "2",
+        "logical_name": "Osaka",
+        "physical_name": "大阪大学",
+        "logical_region": "Kinki",
+        "physical_region": "近畿",
+        "logical_prefecture": "Osaka",
+        "physical_prefecture": "大阪"
+    },
+    {
+        "id": "3",
+        "logical_name": "Tokyo",
+        "physical_name": "東京大学",
+        "logical_region": "Kanto",
+        "physical_region": "関東",
+        "logical_prefecture": "Tokyo",
+        "physical_prefecture": "東京"
+    },
+    {
+        "id": "4",
+        "logical_name": "Kyoto",
+        "physical_name": "京都大学",
+        "logical_region": "Kinki",
+        "physical_region": "近畿",
+        "logical_prefecture": "Kyoto",
+        "physical_prefecture": "京都"
+    }
+]

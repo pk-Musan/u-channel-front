@@ -1,0 +1,34 @@
+[
+    {
+        "logical_name": "Hokkaido",
+        "physical_name": "北海道"
+    },
+    {
+        "logical_name": "Tohoku",
+        "physical_name": "東北"
+    },
+    {
+        "logical_name": "Kanto",
+        "physical_name": "関東"
+    },
+    {
+        "logical_name": "Chubu",
+        "physical_name": "中部"
+    },
+    {
+        "logical_name": "Kinki",
+        "physical_name": "近畿"
+    },
+    {
+        "logical_name": "Chugoku",
+        "physical_name": "中国"
+    },
+    {
+        "logical_name": "Shikoku",
+        "physical_name": "四国"
+    },
+    {
+        "logical_name": "Kyushu",
+        "physical_name": "九州"
+    }
+]

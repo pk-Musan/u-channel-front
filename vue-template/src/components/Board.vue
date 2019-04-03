@@ -35,7 +35,7 @@ export default {
   created () {
     // console.log(this.$route.params.value)
     // urlのパラメータから現在開いてる大学のidを取得
-    this.university_id = this.$route.params.value
+    this.university_id = this.$route.params.id
 
     // 取得した大学のidを基に特定の大学の情報を取得
     // this.university = this.get_university(this.university_id)
@@ -55,9 +55,9 @@ export default {
   watch: {
     // リンクが変わったらパラメータに応じてuniversity_idを書き換え
     '$route': function (to, from) {
-      if (to.params.value !== 'top') {
+      if (to.path.indexOf('university') !== -1) {
         // console.log(to.params.value)
-        this.university_id = to.params.value
+        this.university_id = to.params.id
         this.university = this.get_university()
 
         // 取得したuniversity/idを基に大学名を取得(画面表示用)

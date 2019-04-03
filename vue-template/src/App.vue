@@ -2,18 +2,10 @@
   <div id="app">
     <myheader/>
 
-    <ul id="courage-list">
-        <li>
-            <router-link :to="{ name: 'top', params: { value: 'top' }}">Top</router-link>
-        </li>
-        <li v-for="university in university_list" :key="university.id">
-            <router-link :to="{ name: 'university_name', params: { value: university.id }}">{{ university.physical_name }}</router-link>
-        </li>
-    </ul>
-
     <el-container style="height: 100%; width: 100%;">
       <router-view class="view one" name="top"></router-view>
-      <router-view class="view two" name="board"></router-view>
+      <router-view class="view two" name="search"></router-view>
+      <router-view class="view three" name="board"></router-view>
 
       <el-footer style="text-align: center; background-color: #545c64; color: #fff">
         <h4>(c) copyright.</h4>

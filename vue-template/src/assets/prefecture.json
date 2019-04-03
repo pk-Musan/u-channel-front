@@ -1,0 +1,18 @@
+[
+    {
+        "logical_name": "Tokyo",
+        "physical_name": "東京"
+    },
+    {
+        "logical_name": "Kyoto",
+        "physical_name": "京都"
+    },
+    {
+        "logical_name": "Osaka",
+        "physical_name": "大阪"
+    },
+    {
+        "logical_name": "Hyogo",
+        "physical_name": "兵庫"
+    }
+]
